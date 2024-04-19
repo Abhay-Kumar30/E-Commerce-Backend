@@ -7,7 +7,6 @@ import bcrypt from "bcrypt";
 // 1) make our password hashed
 export const hashPassword = async (password) => {
   try {
-
      
     // higher the saltRounds slower will be the cpu used
     // saltRounds make the password more strong and increase length of password 
